@@ -23,7 +23,7 @@ end
 disp(['Approximate root:', num2str(c)]);
 
 
-x = linspace(-2, 10, 1000);
+x = linspace(-4, 10, 1000);
 y = f(x);
 
 plot(x, y, 'LineWidth', 2);
