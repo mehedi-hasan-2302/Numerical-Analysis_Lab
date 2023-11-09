@@ -12,5 +12,5 @@ if size(P,2) == size(Q,1) % checking if the column length of the first matrix is
   disp(product);
 
 else
-  fprintf('Two matrix is not multiplicable\n');
+  fprintf('Two matrix is not multiplicable beacuse the first matrix's column and second matrix's row is not equal\n');
 end
