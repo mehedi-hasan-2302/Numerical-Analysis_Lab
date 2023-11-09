@@ -6,7 +6,7 @@ tolerance = 1e-6;
 
 roots = [];
 
-f = @(x) x.^3 - 4.*x - 9;
+f = @(x) x.^3 - 4.*x - 9;  % the function
 
 while (b - a) > tolerance
     c = (a + b) / 2;
