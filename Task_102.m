@@ -21,7 +21,7 @@ while (b - a) > tolerance
 end
 
 % Plot the equation and the roots
-x = linspace(0, 4, 1000);
+x = linspace(-4, 10, 1000);
 y = f(x);
 plot(x, y, 'b', 'LineWidth', 2);
 hold on;
