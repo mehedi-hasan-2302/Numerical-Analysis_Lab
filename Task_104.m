@@ -5,6 +5,7 @@ df = @(x)3*x.^2-4; % differentiated function
 roots = [];
 slopes = [];
 a = 0;
+tolerance = 1e-6;
 
 for i = 1:10
     c = a - f(a)/df(a);
